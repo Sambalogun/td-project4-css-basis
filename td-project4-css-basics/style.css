@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+} 
+*
+p{
+    margin: 0;
+}
+
+body .nav-bar {
+    background-color: teal;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.nav-bar h1:hover{
+    color:black;
+}
+.nav-bar p:hover{
+    color:rgb(14, 14, 27)
+}
+body .nav-bar h1{
+    color: #ffffff;
+    padding-left: 100px;
+}
+body .nav-bar .meta{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    color: #ffffff;
+    gap: 20px;
+    padding-right: 50px;
+}
+body .bio{
+    /* padding-left: 35rem; */
+    padding-top: 6.5rem;
+    padding-bottom: 6.5rem;
+    text-align: center;
+}
+
+body .bio .mine img{
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+body .bio .meta h1{
+    font-size: 40px;
+    color: teal;
+}
+
+body .bio .meta1 img{
+    width: 20px;
+    margin: 0;
+}
+
+
+body .service{
+    background-color: teal;
+    font-style: inherit;
+    display: flex;
+    justify-content: space-between;
+    color: #ffffff;
+    align-items: center;
+    gap: 10rem;
+    height:fit-content;
+    padding: 100px;
+}
+body .service .meta1{
+    margin-left: 5rem;
+
+}
+body .service .meta1 h2{
+    font-size: 37px;
+}
+body .service .meta1 p{
+    width: 30rem;
+    
+}
+body .service .any h2{
+    font-size: 25px;
+    margin: 0;
+    padding: 0;  
+}
+body .service .any .has{
+    padding-bottom: 30px;
+}
+body .serv{
+    padding: 70px 100px 120px 100px;
+    height: fit-content;
+}
+body .services h3{
+    padding-bottom: 70px;
+}
+body .services{
+    
+    font-style: normal;
+    color:teal;
+    font-size: 25px;
+    padding-left: 40px;
+    justify-content: space-around;
+}
+body .container .ux {
+    color: #ffffff;
+    background-color:  rgb(29, 43, 43);
+    /* justify-content: space-between; */
+    border-radius: 10px;
+    width: 20%;
+    padding: 30px;
+}
+
+body .container .ux h4{
+    margin: 0;
+    padding-bottom: 30px;
+}
+
+body .container .web{
+    color: #ffffff;
+    background-color: rgb(29, 43, 43);
+    border-radius: 10px;
+    width: 20%;
+    padding: 30px;
+}
+
+body .container .web h4{
+    margin: 0;
+    padding-bottom: 30px;
+
+}
+
+body .container .instructor{
+    color: #ffffff;
+    background-color: rgb(29, 43, 43);
+    border-radius: 10px;
+    width: 20%;
+    padding: 30px;
+}
+
+body .container .instructor h4{
+    margin: 0;
+    padding-bottom: 30px;
+}
+
+body .container{
+    display: flex;
+    justify-content: space-between;
+    padding: auto;
+    border-radius: 10px;
+    justify-self: center;
+    text-align: center;
+
+}
+body .container p{
+    margin-top: 2px;
+    padding-bottom:10px;
+}
+body .address{
+    background-color: teal;
+    color: #ffffff;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 100px;
+}
+body .address h5{
+    padding-top: 60px;
+}
+.address img{
+    width: 20px;
+}
+    
+
